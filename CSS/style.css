@@ -478,6 +478,82 @@ body {
   grid-row: 5/5;
   height: 50px;
 }
+/* über uns Kontaktformular*/
+#vornametext{
+  color:red;
+  font-size: 1rem;
+}
+
+#nachnametext{
+  color:red;
+  font-size: 1rem;
+}
+#mailtext{
+  color:red;
+  font-size: 1rem;
+}
+#nachrichttext{
+  color:red;
+  font-size: 1rem;
+}
+
+.formular-block{
+  padding:20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.formular-block-nachricht{
+  padding:20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formular-block label{
+  font-family: "montserrat-black";
+  font-size: 1.2rem;
+
+}
+
+.formular-block input{
+  height: 30px;
+  width: 220px;
+  padding: 5px 8px;
+
+}
+.formular-block-nachricht input{
+  height: 100px;
+  width: 220px;
+  padding: 5px 8px;
+
+}
+#submitbtn{
+  font-size: 1.3em; padding: 5px 12px; 
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  color: teal;
+  border: 1px solid silver;
+  background-image: linear-gradient(to top, gainsboro 0%, white 90%);
+  border-radius: 20px;
+
+}
+
+
+
+
+/*input{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+#nachricht{
+  padding:50px 20px;
+}*/
 /*über uns Bilder*/
 .foto-gravelbike {
   height: 200px;
