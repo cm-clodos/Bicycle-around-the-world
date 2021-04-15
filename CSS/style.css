@@ -1,0 +1,530 @@
+
+body {
+  background: #fdc830; /* fallback for old browsers Citrus Peel*/
+  background: -webkit-linear-gradient(to right, #fdc830, #f37335); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdc830, #f37335); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Navbar*/
+
+.nav-element {
+  margin-right: 20px;
+}
+
+.Fahrrad-logo {
+  margin: 0 1rem;
+  width: 80px;
+  height: 60px;
+}
+
+.Brandtext {
+  font-size: 1.5rem;
+  font-family: "montserrat-black";
+}
+
+
+.nav-strich {
+  border: 3px solid black;
+}
+
+/*Startseite*/
+
+.main-title {
+  font-size: 3rem;
+  font-family: "montserrat-black";
+  font-weight: 800;
+  margin-top: 50px;
+}
+  
+
+.weltkugel {
+  height: 200px;
+  width: 200px;
+  margin: 50px 0;
+}
+
+.fahrrad-wald {
+  max-height:70%;
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+ 
+}
+/* Startseite Grid*/
+.grid-container-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  text-align: center;
+
+}
+
+.box-home {
+  margin: 20px;
+
+}
+
+.l {
+  grid-column: 1/2;
+  grid-row: 1/4;
+
+}
+
+.m {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.nhome {
+  grid-column: 1/4;
+  grid-row: 5/5;
+  height: 50px;
+
+}
+
+/*Startseite Seite Responsiv*/
+
+@media (max-width: 800px) {
+  .grid-container-home {
+      display: grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+
+  }
+
+  .box-home {
+      margin: 10px;
+
+  }
+
+  .l {
+      grid-column: 1/1;
+      grid-row: 1/3;
+  }
+
+  .m {
+      grid-column: 1/1;
+      grid-row: 3/5;
+  }
+
+
+
+  .nhome {
+      grid-column: 1/1;
+      grid-row: 7/7;
+      height: 50px;
+  }
+  /*Startseite Bilder Responsiv*/
+  .fahrrad-wald {
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+   
+  }
+
+}
+
+/*Buttons*/
+
+.button-fahr-mit {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  background-color: black;
+  color: #fdc830;
+  margin-right: 10px;
+  border: solid;
+}
+.button-fahr-mit:hover {
+  background-color: #fdc830;
+  color: black;
+}
+
+.button-support {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  background-color: black;
+  color: #fdc830;
+  border: solid;
+}
+.button-support:hover {
+  background-color: #fdc830;
+  color: black;
+}
+
+
+
+/*footer*/
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.social-icon:hover {
+  background-color: #fdc830;
+  border-radius: 5%;
+}
+
+/*Seiten Titel*/
+.seiten-title {
+  margin: 2rem 0 4rem 0;
+  font-size: 3rem;
+  font-family: "montserrat-black";
+  font-weight: 800;
+  text-align: center;
+}
+/*container Titel + Artikel*/
+.sidebox-title {
+  margin: 20px 0 20px 0;
+  font-size: 1.5rem;
+  font-family: "montserrat-black";
+  font-weight: 800;
+  text-align: center;
+}
+.sidebox-artikel {
+  text-align: center;
+}
+
+
+/*Projekt Seite*/
+.grid-container-projekt {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 100vh;
+  text-align: center;
+}
+
+.box-projekt {
+  margin: 20px;
+}
+
+.a {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.b {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.c {
+  grid-column: 3/5;
+  grid-row: 1/4;
+}
+
+.cprojekt {
+  grid-column: 1/4;
+  grid-row: 5/5;
+  height: 50px;
+}
+
+/*Projekt Bilder*/
+.fahrrad-strand {
+  max-height: 600px;
+  max-width: 100%;
+}
+/*Projekt Seite Responsiv*/
+
+@media (max-width: 800px) {
+  .grid-container-projekt {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .box-projekt {
+    margin: 10px;
+  }
+
+  .a {
+    grid-column: 1/1;
+    grid-row: 1/3;
+  }
+
+  .b {
+    grid-column: 1/1;
+    grid-row: 3/5;
+  }
+
+  .c {
+    grid-column: 1/1;
+    grid-row: 5/7;
+  }
+
+  .cprojekt {
+    grid-column: 1/1;
+    grid-row: 7/7;
+    height: 50px;
+  }
+  /*Projekt Bilder Responsiv*/
+.fahrrad-strand {
+  height: 300px;
+}
+}
+
+/*Support Seite*/
+
+.grid-container-support {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 100vh;
+  text-align: center;
+}
+
+.box-support {
+  margin: 50px;
+}
+.g {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.h {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.i {
+  grid-column: 3/5;
+  grid-row: 1/3;
+}
+
+.j {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.k {
+  grid-column: 1/4;
+  grid-row: 3/3;
+  height: 50px;
+}
+
+/*Support Sponsor*/
+
+
+
+.sponsor2{
+  padding-left: 50px;
+}
+/*Support Bilder*/
+
+.support-bild {
+  border-radius: 10px;
+  height: 300px;
+  width: 400px;
+}
+.minireis-logo{
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+/*Support Seite Responsiv*/
+@media (max-width: 800px) {
+  .grid-container-support {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .box-support {
+    margin: 10px;
+  }
+  .g {
+    grid-column: 1/1;
+    grid-row: 1/2;
+  }
+  .h {
+    grid-column: 1/1;
+    grid-row: 2/4;
+  }
+
+  .i {
+    grid-column: 1/1;
+    grid-row: 4/6;
+  }
+
+  .j {
+    grid-column: 1/1;
+    grid-row: 6/8;
+  }
+
+  .k {
+    grid-column: 1/1;
+    grid-row: 8/8;
+    height: 50px;
+  }
+  /*Support Bilder Responsiv*/
+
+  .support-bild {
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+  }
+}
+
+/*Tracking Seite*/
+
+.grid-container-tracking {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.box-tracking {
+  margin: 50px;
+}
+.l {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+.m {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.n {
+  grid-column: 3/5;
+  grid-row: 1/4;
+}
+
+.p {
+  grid-column: 1/4;
+  grid-row: 5/5;
+  height: 50px;
+}
+
+/* Tracking Map*/
+
+.mapouter {
+  margin: 5% auto 0;
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
+}
+
+/*Tracking Seite Responsiv*/
+@media (max-width: 800px) {
+  .grid-container-tracking {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .box-tracking {
+    margin: 10px;
+  }
+  .l {
+    grid-column: 1/1;
+    grid-row: 1/2;
+  }
+  .m {
+    grid-column: 1/1;
+    grid-row: 2/4;
+  }
+
+  .n {
+    grid-column: 1/1;
+    grid-row: 4/5;
+  }
+  .p {
+    grid-column: 1/1;
+    grid-row: 5/5;
+    height: 50px;
+  }
+}
+
+/*Über uns Seite*/
+
+.grid-container-ueberuns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100vh;
+  text-align: center;
+}
+
+.box-ueberuns {
+  margin: 50px;
+  text-align: center;
+}
+
+.d {
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.e {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+
+.f {
+  grid-column: 3/5;
+  grid-row: 1/4;
+}
+
+.fueberuns {
+  grid-column: 1/4;
+  grid-row: 5/5;
+  height: 50px;
+}
+/*über uns Bilder*/
+.foto-gravelbike {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/*Über uns Seite Responsiv*/
+
+@media (max-width: 800px) {
+  .grid-container-ueberuns {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .box-ueberuns {
+    margin: 10px;
+  }
+
+  .d {
+    grid-column: 1/1;
+    grid-row: 1/3;
+  }
+
+  .e {
+    grid-column: 1/1;
+    grid-row: 3/5;
+  }
+
+  .f {
+    grid-column: 1/1;
+    grid-row: 5/7;
+  }
+
+  .fueberuns {
+    grid-column: 1/1;
+    grid-row: 7/7;
+    height: 50px;
+  }
+}
+
+/*über uns Bilder Responsiv*/
+.foto-gravelbike {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
