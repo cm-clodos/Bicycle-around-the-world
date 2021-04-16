@@ -4,6 +4,7 @@ const vorname = document.querySelector("#vorname");
 const nachname = document.querySelector("#nachname");
 const mail = document.querySelector("#mail");
 const nachricht = document.querySelector("#nachricht");
+// Fehlermeldung Text
 const vornametext = document.querySelector("#vornametext");
 const nachnametext = document.querySelector("#nachnametext");
 const mailtext = document.querySelector("#mailtext");
